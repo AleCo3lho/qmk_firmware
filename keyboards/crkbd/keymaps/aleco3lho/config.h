@@ -20,7 +20,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
-//#define USE_MATRIX_I2C
+#define USE_MATRIX_I2C
 
 /* Select hand configuration */
 
@@ -28,11 +28,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define MASTER_RIGHT
 // #define EE_HANDS
 
-#define USE_SERIAL_PD2
+//#define USE_SERIAL_PD2
 
 #define TAPPING_FORCE_HOLD
-#define TAPPING_TERM 200
-
+#define TAPPING_TERM 150
 #undef PERMISSIVE_HOLD
 
 #define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"

@@ -23,8 +23,20 @@
 #    define OLED_RENDER_WPM_COUNTER " WPM: "
 #endif
 #ifdef LUNA_ENABLE
-#    include "luna.h"
+#    include "./animations/luna.h"
 #endif
 #ifdef OCEAN_DREAM_ENABLE
-#    include "ocean_dream.h"
+#    include "./animations/ocean_dream.h"
+#endif
+#ifdef ARASAKA_ENABLE
+#    include "./animations/arasaka.h"
+#endif
+#ifdef LAYERS_ENABLE
+#    include "./animations/layers.h"
+#endif
+#ifdef BONGO_ENABLE
+#    include "./animations/bongo.h"
+#endif
+#ifdef EZPLIT_ENABLE
+#    include "./animations/ezplit.h"
 #endif
