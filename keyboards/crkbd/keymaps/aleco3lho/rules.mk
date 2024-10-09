@@ -1,0 +1,29 @@
+BOOTMAGIC_ENABLE = yes       # Enable Bootmagic Lite
+MOUSEKEY_ENABLE = yes        # Mouse keys(+4700)
+EXTRAKEY_ENABLE = yes     # Audio control and System control(+450)
+CONSOLE_ENABLE = yes       # Console for debug(+400)
+COMMAND_ENABLE = yes         # Commands for debug and configuration
+NKRO_ENABLE = yes            # Nkey Rollover - if this doesn't work, see here: https://github.com/tmk/tmk_keyboard/wiki/FAQ#nkro-doesnt-work
+AUTOCORRECT_ENABLE = no
+AUDIO_ENABLE = no           # Audio output on port C6
+BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
+RGBLIGHT_ENABLE = no       # Enable WS2812 RGB underlight.
+LEADER_ENABLE = no
+MIDI_ENABLE = yes            # MIDI controls
+UNICODE_ENABLE = yes         # Unicode
+BLUETOOTH_ENABLE = no       # Enable Bluetooth with the Adafruit EZ-Key HID
+SWAP_HANDS_ENABLE = no      # Enable one-hand typing
+RGBLIGHT_TWINKLE = yes
+OLED_ENABLE = yes
+OLED_DRIVER = ssd1306
+RGB_MATRIX_ENABLE = yes
+TAP_DANCE_ENABLE = yes
+OCEAN_DREAM_ENABLE	= no
+LUNA_ENABLE			= no
+ARASAKA_ENABLE		= no
+BONGO_ENABLE		= no
+EZPLIT_ENABLE		= yes
+
+WPM_ENABLE			= no
+LTO_ENABLE = no
+
